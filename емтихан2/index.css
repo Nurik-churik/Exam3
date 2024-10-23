@@ -1,0 +1,85 @@
+.dop {
+    width: 150px;
+    height: 150px;
+    border-radius:0px;
+    background-color: blue;
+}
+
+.dop:hover {
+    animation: ooop 1.5s  ;
+    transform: rotateX('90deg') rotateY('90deg');
+}
+
+.doop {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    background: red;
+    left: 40px;
+    margin-top: 100px;
+    animation: up-doun 3s infinite ;
+}
+.dopp{
+    width: 700px;
+    height: 200px;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 30px;
+    border: 2px black solid;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    margin-top: 320px;
+    animation: ff 5s infinite;
+}
+
+@keyframes ff {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes up-doun {
+    0% {
+        top: 180px;
+    }
+
+    50% {
+       
+        background: rgb(0, 255, 8);
+        margin-left: 500px;
+    }
+
+    100% {
+        top: 180px;
+    }
+
+   
+}
+
+
+    @keyframes ooop {
+        0% {
+            top: 300px;
+            color: black;
+            width: 150px;
+            height: 150px;
+        }
+
+       100% {
+        transform: rotate(360deg);
+            top: 300px;
+            background-color: gray;
+            width: 200px;
+            height: 200px;
+        }
+    
+       
+    }
